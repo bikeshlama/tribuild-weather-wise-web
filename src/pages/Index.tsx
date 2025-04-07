@@ -1,5 +1,4 @@
-
-import { Fan, Umbrella, Thermometer, ArrowRight } from "lucide-react";
+import { Fan, Umbrella, Thermometer, ArrowRight, Shield, Users, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
@@ -119,61 +118,17 @@ const Index = () => {
               <TrustBadge
                 title="Licensed & Insured"
                 description="Our team is fully licensed, bonded, and insured for your peace of mind."
-                icon={({ ...props }) => (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    {...props}
-                  >
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
-                    <path d="m9 12 2 2 4-4" />
-                  </svg>
-                )}
+                icon={<Shield className="h-8 w-8 text-tribuild-maroon" />}
               />
               <TrustBadge
                 title="Expert Technicians"
                 description="Our certified professionals have years of experience and ongoing training."
-                icon={({ ...props }) => (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    {...props}
-                  >
-                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                    <circle cx="9" cy="7" r="4" />
-                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                  </svg>
-                )}
+                icon={<Users className="h-8 w-8 text-tribuild-maroon" />}
               />
               <TrustBadge
                 title="Satisfaction Guaranteed"
                 description="We stand behind our work with warranties and our satisfaction guarantee."
-                icon={({ ...props }) => (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    {...props}
-                  >
-                    <path d="M9 12l2 2 4-4" />
-                    <path d="M12 2c-2.7 0-5.2.2-7.1.6-.7.2-1.3.5-1.7 1-.5.5-.7 1.1-.9 1.7C2.1 6.2 2 7.4 2 8.5c0 1.7.3 3.4 1 5.4.8 2.1 2 3.8 3.7 5.2 1.7 1.3 3.7 1.9 5.3 1.9 1.6 0 3.6-.6 5.3-1.9 1.7-1.3 2.9-3.1 3.7-5.2.7-2 1-3.7 1-5.4 0-1.1-.1-2.3-.3-3.2-.2-.6-.4-1.2-.9-1.7-.4-.5-1-.8-1.7-1-1.9-.4-4.4-.6-7.1-.6z" />
-                  </svg>
-                )}
+                icon={<CheckCircle className="h-8 w-8 text-tribuild-maroon" />}
               />
             </div>
           </div>
