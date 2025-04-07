@@ -14,7 +14,7 @@ const Footer = () => {
           <div>
             <Logo className="mb-4" />
             <p className="mb-4 text-gray-300">
-              Rain or Shine, We've Got You Covered. Tribuild provides expert heating, cooling, and waterproofing services for residential and commercial properties.
+              Rain or Shine, We've Got You Covered. TriBuild Water Proofing Company provides expert waterproofing solutions for residential, commercial, and industrial properties.
             </p>
             <div className="flex space-x-4">
               <a href="#" aria-label="Facebook" className="text-gray-300 hover:text-tribuild-gold transition-colors">
@@ -34,19 +34,19 @@ const Footer = () => {
             <h3 className="text-lg font-heading font-bold mb-4 border-b border-tribuild-gold pb-2">Our Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/services#heating" className="text-gray-300 hover:text-tribuild-gold transition-colors">Heating Services</Link>
+                <Link to="/services#basement" className="text-gray-300 hover:text-tribuild-gold transition-colors">Basement Waterproofing</Link>
               </li>
               <li>
-                <Link to="/services#cooling" className="text-gray-300 hover:text-tribuild-gold transition-colors">Cooling Services</Link>
+                <Link to="/services#bathroom" className="text-gray-300 hover:text-tribuild-gold transition-colors">Bathroom Waterproofing</Link>
               </li>
               <li>
-                <Link to="/services#waterproofing" className="text-gray-300 hover:text-tribuild-gold transition-colors">Basement Waterproofing</Link>
+                <Link to="/services#commercial" className="text-gray-300 hover:text-tribuild-gold transition-colors">Commercial Waterproofing</Link>
               </li>
               <li>
-                <Link to="/services#foundation" className="text-gray-300 hover:text-tribuild-gold transition-colors">Foundation Solutions</Link>
+                <Link to="/services#roof" className="text-gray-300 hover:text-tribuild-gold transition-colors">Roof Waterproofing</Link>
               </li>
               <li>
-                <Link to="/services#emergency" className="text-gray-300 hover:text-tribuild-gold transition-colors">Emergency Services</Link>
+                <Link to="/services#pool" className="text-gray-300 hover:text-tribuild-gold transition-colors">Swimming Pool Waterproofing</Link>
               </li>
             </ul>
           </div>
@@ -58,20 +58,24 @@ const Footer = () => {
               <li className="flex items-start">
                 <Phone className="h-5 w-5 text-tribuild-gold mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  <a href="tel:1234567890" className="text-gray-300 hover:text-tribuild-gold transition-colors">(123) 456-7890</a>
+                  <a href="tel:8113023156" className="text-gray-300 hover:text-tribuild-gold transition-colors">+91 8113023156</a>
+                  <br />
+                  <a href="tel:8138029518" className="text-gray-300 hover:text-tribuild-gold transition-colors">+91 8138029518</a>
                 </span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 text-tribuild-gold mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  <a href="mailto:info@tribuild.com" className="text-gray-300 hover:text-tribuild-gold transition-colors">info@tribuild.com</a>
+                  <a href="mailto:tribuildmvg@gmail.com" className="text-gray-300 hover:text-tribuild-gold transition-colors">tribuildmvg@gmail.com</a>
                 </span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-tribuild-gold mr-2 mt-1 flex-shrink-0" />
                 <span className="text-gray-300">
-                  123 Construction Avenue<br />
-                  Building City, BC 12345
+                  <p className="font-semibold">Cochin Office:</p>
+                  Densons Building, 2nd Floor - 1/676,<br />
+                  Marottichuvadu Jn, Edappally Toll,<br />
+                  Eranakulam, Cochin - 682024
                 </span>
               </li>
             </ul>
@@ -85,7 +89,7 @@ const Footer = () => {
                 <Calendar className="h-5 w-5 text-tribuild-gold mr-2 mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-white font-semibold">Monday - Friday</p>
-                  <p className="text-gray-300">8:00 AM - 6:00 PM</p>
+                  <p className="text-gray-300">9:00 AM - 6:00 PM</p>
                 </div>
               </li>
               <li className="flex items-start">
@@ -98,8 +102,8 @@ const Footer = () => {
               <li className="flex items-start">
                 <Clock className="h-5 w-5 text-tribuild-gold mr-2 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-tribuild-gold font-semibold">24/7 Emergency Service</p>
-                  <p className="text-gray-300">Available All Year</p>
+                  <p className="text-tribuild-gold font-semibold">GSTIN:</p>
+                  <p className="text-gray-300">32CLUPM2343B1Z8</p>
                 </div>
               </li>
             </ul>
@@ -109,7 +113,7 @@ const Footer = () => {
         {/* Bottom Section with Copyright */}
         <div className="pt-6 border-t border-gray-700 text-center md:flex md:justify-between md:text-left">
           <p className="text-gray-400 text-sm mb-2 md:mb-0">
-            &copy; {currentYear} Tribuild. All rights reserved.
+            &copy; {currentYear} TriBuild Water Proofing Company. All rights reserved.
           </p>
           <div className="text-sm text-gray-400 space-x-4">
             <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
