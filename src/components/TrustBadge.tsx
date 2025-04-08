@@ -1,7 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { LucideIcon } from "lucide-react";
-import { ReactNode } from "react";
 
 interface TrustBadgeProps {
   title: string;
