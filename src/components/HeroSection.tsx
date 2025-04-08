@@ -20,7 +20,7 @@ const HeroSection = () => {
       </div>
 
       <div className="container-custom relative z-10">
-        <div className="max-w-2xl">
+        <div className="max-w-2xl animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">
             Protect Your Property from Water Damage
           </h1>
@@ -28,10 +28,10 @@ const HeroSection = () => {
             Cochin & Kannur's leading waterproofing specialist - powered by Aidas & Roof Chemist
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button asChild size="lg" className="bg-tribuild-gold hover:bg-opacity-80 text-tribuild-dark">
+            <Button asChild size="lg" className="bg-tribuild-gold hover:bg-opacity-80 text-tribuild-dark animate-pulse">
               <Link to="/contact">Request a Free Consultation</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+            <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white/10 hover:text-white">
               <Link to="tel:8113023156" className="flex items-center gap-2">
                 <Phone className="h-5 w-5" />
                 Call Us Now
